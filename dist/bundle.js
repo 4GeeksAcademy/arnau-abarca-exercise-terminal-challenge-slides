@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9b8327cb8e981988f1b0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a8964ca506c1e0b116ee"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -789,7 +789,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CustomErrorReporter, "CustomErrorReporter", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/index.js");
+  __REACT_HOT_LOADER__.register(CustomErrorReporter, "CustomErrorReporter", "/workspaces/arnau-abarca-exercise-terminal-challenge-slides/index.js");
 }();
 
 ;
@@ -106787,9 +106787,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(theme, "theme", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/slides/index.js");
+  __REACT_HOT_LOADER__.register(theme, "theme", "/workspaces/arnau-abarca-exercise-terminal-challenge-slides/slides/index.js");
 
-  __REACT_HOT_LOADER__.register(Presentation, "Presentation", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/slides/index.js");
+  __REACT_HOT_LOADER__.register(Presentation, "Presentation", "/workspaces/arnau-abarca-exercise-terminal-challenge-slides/slides/index.js");
 }();
 
 ;
