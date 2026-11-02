@@ -115,4 +115,43 @@ do {
 } while (contador2 <=5);
 
 //Ejercicio 11 - Analizador de tiempos de natación
+const tiemposNatacion: number [] = [26.2, 25.9, 27.1, 25.5];
 
+for (let i=0; i<tiemposNatacion.length; i++)
+    if (tiemposNatacion[i] < 26) {
+        console.log(`${tiemposNatacion[i]} - Excelente`)
+    }
+    else {
+        console.log(`${tiemposNatacion[i]} - A mejorar`);
+    }
+let TiemposTotal: number = 0
+ for (let i=0; i<tiemposNatacion.length; i++) {
+    TiemposTotal += tiemposNatacion[i];
+    console.log(TiemposTotal)
+}
+console.log(`La suma del Tiempo Total es de ${TiemposTotal}`);
+{
+    const TiempoPromedio: number = TiemposTotal / tiemposNatacion.length;
+console.log(`El tiempo promedio es de ${TiempoPromedio}`);
+}
+
+//Ejercicio 12 - Mini-dashboard financiero
+const productos: {
+    nombre: string;
+    ingresos: number;
+    costes: number;
+} [] = [
+    {nombre: "Oxford Analytica", ingresos: 500, costes: 300},
+    {nombre: "Global Risk Monitor", ingresos: 200, costes: 200},
+    {nombre: "Dragonfly", ingresos: 150, costes: 250}
+]
+
+for (let i=0; i<productos.length; i++) {
+    let beneficios : number = productos[i].ingresos - productos[i].costes;
+if (beneficios<0) {console.log(`El beneficio de ${productos[i].nombre} es de ${beneficios}. PÉRDIDAS`)
+}
+else if (beneficios===0) {console.log(`El beneficio de ${productos[i].nombre} es de ${beneficios}. EQUILIBRADO`)
+}
+else if (beneficios>0) {console.log(`El beneficio de ${productos[i].nombre} es de ${beneficios}. RENTABLE`)
+}
+}
