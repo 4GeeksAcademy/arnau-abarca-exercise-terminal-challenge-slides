@@ -32,3 +32,26 @@ if (posicion === undefined) {
 else if (posicion !== undefined) {
     console.log(`La posición de Arnau es ${posicion}`);
 }
+
+//Ejercicio 15 - Mi primera función
+function saludo(): void {
+    console.log("Hola Arnau");
+}
+saludo();
+
+function presentarme (): void {
+    console.log("Hola, estoy aprendiendo typescript");
+}
+presentarme();
+
+//Ejercicio 16 - presentarNadador
+function presentarNadador(nadador: string): void {
+    console.log(`El nadador se llama ${nadador}`);
+}
+presentarNadador("Uri Tapias");
+
+//Ejercicio 17 - funciones con 2 parámetros
+function presentarResultado(nadador: string, tiempo: number): void {
+    console.log(`El nadador ${nadador} tiene una marca de ${tiempo}`);
+}
+presentarResultado("Uri Tapias", 24.68);
