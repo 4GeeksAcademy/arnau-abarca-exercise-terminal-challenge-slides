@@ -155,3 +155,11 @@ else if (beneficios===0) {console.log(`El beneficio de ${productos[i].nombre} es
 else if (beneficios>0) {console.log(`El beneficio de ${productos[i].nombre} es de ${beneficios}. RENTABLE`)
 }
 }
+
+let beneficiosTotal : number = 0
+for (let i=0; i<productos.length; i++) {
+    const beneficios : number = number = productos[i].ingresos - productos[i].costes;
+    beneficiosTotal += beneficios;
+}
+console.log(`El beneficio total es de ${beneficiosTotal}$`);
+
