@@ -55,3 +55,22 @@ function presentarResultado(nadador: string, tiempo: number): void {
     console.log(`El nadador ${nadador} tiene una marca de ${tiempo}`);
 }
 presentarResultado("Uri Tapias", 24.68);
+
+//Ejercicio 18 - Tu primera funcion con return
+
+function calcularBeneficio(ingresos: number, costes: number): number {
+    return ingresos - costes;
+}
+
+const beneficio: number = calcularBeneficio(500, 300);
+
+console.log(beneficio);
+
+//Ejercicio 19 - Reutilizar una función con diferentes argumentos
+const beneficioOA: number = calcularBeneficio(500, 300);
+const beneficioGRM: number = calcularBeneficio(200, 200);
+const beneficioDF: number = calcularBeneficio(150, 250);
+
+console.log(beneficioOA);
+console.log(beneficioGRM);
+console.log(beneficioDF);   
