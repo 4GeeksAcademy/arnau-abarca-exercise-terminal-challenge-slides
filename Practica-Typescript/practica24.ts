@@ -39,3 +39,4 @@ function obtenerNadador(): {nombre: string, prueba: string, tiempo: number} {
 }
 const nadador = obtenerNadador();
 console.log(`${nadador.nombre}: ${nadador.tiempo} segundos`);
+
